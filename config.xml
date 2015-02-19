@@ -1,23 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.jussi.kiihtyy"
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>Kiihtyy</name>
-
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kiihtyvyys.jussi" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Kiihtyvyys</name>
     <description>
-        Mukava pikku peli
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
-
     <author href="https://github.com/Juigeli/">
         Jussi Parkkinen
     </author>
-
+    <content src="index.html" />
+    <access origin="*" />
     <feature name="Accelerometer">
         <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
-    </feature>
-    
-</widget>                          
+    </feature>    
+</widget>
